@@ -36,7 +36,10 @@ html
         //- a(href="http://tass.ru/" target="_blank")
         //-     img.logo-tass(src=require("assets/images/logo/tass.svg") )
         div#viewport
-            block content
+            a-scene#scene
+                block scene
+            div#scene-ui
+                block ui
 
         // Google Tag Manager
         //- script.
